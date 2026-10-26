@@ -3,7 +3,8 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.filters import Command
 
 # Telegram'dagi @BotFather bergan tokeningizni shu tirnoq ichiga yozasiz
-BOT_TOKEN = "SIZNING_BOT_TOKENINGIZ"
+BOT_TOKEN =import os
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
