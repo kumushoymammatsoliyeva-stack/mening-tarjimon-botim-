@@ -1,6 +1,9 @@
 import asyncio
+import os
 from aiogram import Bot, Dispatcher, types
 from aiogram.filters import Command
+
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 # Telegram'dagi @BotFather bergan tokeningizni shu tirnoq ichiga yozasiz
 BOT_TOKEN =import os
