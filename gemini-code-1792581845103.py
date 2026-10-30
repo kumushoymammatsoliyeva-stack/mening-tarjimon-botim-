@@ -6,7 +6,9 @@ from aiogram.filters import Command
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 # Telegram'dagi @BotFather bergan tokeningizni shu tirnoq ichiga yozasiz
-BOT_TOKEN =import os
+import os
+
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 
 bot = Bot(token=BOT_TOKEN)
