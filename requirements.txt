@@ -1,3 +1,4 @@
-google-genai
-fastapi
-uvicorn
+
+aiogram==3.13.1
+google-genai>=1.0.0
+
