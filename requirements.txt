@@ -1,4 +1,3 @@
-
-aiogram
-google-generativeai
-Pillow
+google-genai
+fastapi
+uvicorn
