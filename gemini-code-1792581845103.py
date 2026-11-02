@@ -12,8 +12,8 @@ from google.genai import types as gemini_types
 # API VA BOT SOZLAMALARI
 # ==================================
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+BOT_TOKEN = os.getenv("8655739103:AAG9LQQ6DR7VqN6nbqmcLofz7MyApvoOWqY")
+GEMINI_API_KEY = os.getenv("AQ.Ab8RN6JkMvTZx-v_FbuOT_m6H8ZpjON9B9rvvbSUsgixODt8AQ")
 
 if not BOT_TOKEN:
     raise ValueError("BOT_TOKEN kiritilmagan!")
